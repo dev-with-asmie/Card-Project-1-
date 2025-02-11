@@ -1,0 +1,53 @@
+*{
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+}
+.container{
+         width: 100%;
+         height: 100%;
+         min-height: 800px;
+         background: hsla(239, 100%, 67%, 1);
+
+ background: linear-gradient(90deg, hsla(239, 100%, 67%, 1) 0%, hsla(187, 100%, 89%, 1) 100%);
+
+ background: -moz-linear-gradient(90deg, hsla(239, 100%, 67%, 1) 0%, hsla(187, 100%, 89%, 1) 100%);
+
+ background: -webkit-linear-gradient(90deg, hsla(239, 100%, 67%, 1) 0%, hsla(187, 100%, 89%, 1) 100%);
+
+ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#595CFF", endColorstr="#C6F8FF", GradientType=1 );
+ display:flex;
+ justify-content: center;
+ align-items:center;
+}
+.card{
+        width: 350px;
+        height: 450px;
+        background-color: white;
+        border-radius:20px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding : 20px;
+
+}
+.card img{
+        height: 40%;
+        border-radius: 10px;
+
+}
+.card h2{
+        font-weight: bold;
+        font-size: 1.5rem;
+}
+.card p{
+        font-size:2rem;
+        font-style: oblique;
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        padding-left: 35px;
+
+        
+}
